@@ -3,24 +3,42 @@ package com.alang.business.bo;
 import java.io.Serializable;
 import java.util.List;
 
-import com.alang.business.constant.EmployerType;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
 
+import com.alang.business.constant.EmployerType;
+@Entity
+@Table(name="EMPLOYER")
 public class Employer implements Serializable {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	
+	@Id
 	private String employerId;
+	@Column
 	private EmployerType employerType;
+	@Column
 	private String name;
+	@Column
 	private String emailAddress;
+	@Column
 	private String webSite;
+	@Column
 	private String phoneNumber;
+	@OneToOne
 	private Address branchLocaltion;
+	@Column
 	private String employeeStrength;
+	@Column
 	private double turnOver;
+	@Column
 	private double noOfYearInBusiness;
+	@OneToMany(mappedBy="attachementId")
 	private List<Attachment> attachments;
 	public String getEmployerId() {
 		return employerId;
