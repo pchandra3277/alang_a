@@ -17,6 +17,7 @@ public class Snippet {
 	E:\Java Jar Files\spring-framework-4.0.4.RELEASE-dist\spring-framework-4.0.4.RELEASE\libs\spring-web-4.0.4.RELEASE.jar
 	E:\Java Jar Files\spring-framework-4.0.4.RELEASE-dist\spring-framework-4.0.4.RELEASE\libs\spring-webmvc-4.0.4.RELEASE.jar
 	E:\Java Jar Files\hibernate-release-4.3.6.Final\lib\envers\hibernate-envers-4.3.6.Final.jar
+	//TEst Praakash 
 	E:\Java Jar Files\hibernate-release-4.3.6.Final\lib\jpa\hibernate-entitymanager-4.3.6.Final.jar
 	E:\Java Jar Files\hibernate-release-4.3.6.Final\lib\required\antlr-2.7.7.jar
 	E:\Java Jar Files\hibernate-release-4.3.6.Final\lib\required\dom4j-1.6.1.jar
